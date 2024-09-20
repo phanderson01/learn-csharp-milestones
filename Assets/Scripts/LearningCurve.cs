@@ -5,6 +5,7 @@ using UnityEngine;
 public class LearningCurve : MonoBehaviour
 {
 
+    // hello and welcome to learningcurve smile
     public int CurrentAge = 30;
     public int AddedAge = 1;
 
