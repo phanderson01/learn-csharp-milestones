@@ -21,7 +21,7 @@ public class LearningCurve : MonoBehaviour
     void Start()
     {
         ComputeAge();
-        TestMethod("Phoebe", 20)
+        TestMethod("Phoebe", 20);
     }
 
     /// <summary>
