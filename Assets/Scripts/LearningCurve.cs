@@ -21,7 +21,7 @@ public class LearningCurve : MonoBehaviour
     void Start()
     {
         ComputeAge();
-        TestMethod("Phoebe", 20);
+        CreateCharacter("Phoebe", 20);
     }
 
     /// <summary>
@@ -29,10 +29,16 @@ public class LearningCurve : MonoBehaviour
     /// and simple arithmetic and prints a bunch of variables to the debug log
     /// </summary>
 
-    public void TestMethod(string name, int level)
+    public void CreateCharacter(string name, int level)
     {
         Debug.LogFormat("Character: {0} - Level: {1}", name, level);
     }
+
+    public int TestMethod(int number, float secondnumber)
+    {
+        Debug.LogFormat({0} + {1}, number, secondnumber)
+    }
+
 
     void ComputeAge()
     {
