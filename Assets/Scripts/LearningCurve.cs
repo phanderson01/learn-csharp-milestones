@@ -37,8 +37,12 @@ public class LearningCurve : MonoBehaviour
         Debug.Log(DoesPhoebeLikeThisClass);
 
         Debug.Log(HowAreYou + ImGood);
-        Debug.Log($"Hello, my name is Phoebe. My favorite number is {PhoebesFavoriteNumber}");
+        Debug.Log($"Hello, my name is Phoebe. My favorite number is {PhoebesFavoriteNumber}.");
     }
+
+    /* the difference between public and private variables is that public variables
+        can be altered outside of the script (by programs like unity), while private
+        variables can only be changed within the script */
 
     /*this is a multi line comment
         hello :) */
