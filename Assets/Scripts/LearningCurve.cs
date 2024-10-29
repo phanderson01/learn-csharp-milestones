@@ -21,12 +21,19 @@ public class LearningCurve : MonoBehaviour
     void Start()
     {
         ComputeAge();
+        TestMethod("Phoebe", 20)
     }
 
     /// <summary>
     /// this is a summary comment. this method calculates age using variables
-    /// and simple arithmetic
+    /// and simple arithmetic and prints a bunch of variables to the debug log
     /// </summary>
+
+    public float TestMethod(string name, int level)
+    {
+        Debug.Log($"Character: {0} - Level: {1}", name, level);
+    }
+
     void ComputeAge()
     {
         Debug.Log(CurrentAge + AddedAge);
