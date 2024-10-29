@@ -13,8 +13,8 @@ public class LearningCurve : MonoBehaviour
     public float HeresAnotherNumber = 1.4141414f;
     private string Introduction = "Hi! My name is Phoebe.";
     public bool DoesPhoebeLikeThisClass = true;
-    public string HowAreYou = "How are you today? "
-    public string ImGood = "I'm good, how are you?"
+    public string HowAreYou = "How are you today? ";
+    public string ImGood = "I'm good, how are you?";
 
 
     // Start is called before the first frame update
@@ -37,7 +37,6 @@ public class LearningCurve : MonoBehaviour
         Debug.Log(DoesPhoebeLikeThisClass);
 
         Debug.Log(HowAreYou + ImGood);
-        Debug.Log(HowAreYou $ ImGood);
     }
 
     /*this is a multi line comment
