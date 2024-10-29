@@ -9,7 +9,7 @@ public class LearningCurve : MonoBehaviour
     public int CurrentAge = 30;
     public int AddedAge = 1;
 
-    public int PhoebesFavoriteNumber = 8;
+    private int PhoebesFavoriteNumber = 8;
     public float HeresAnotherNumber = 1.4141414f;
     private string Introduction = "Hi! My name is Phoebe.";
     public bool DoesPhoebeLikeThisClass = true;
@@ -28,6 +28,10 @@ public class LearningCurve : MonoBehaviour
     void ComputeAge()
     {
         Debug.Log(CurrentAge + AddedAge);
+        Debug.Log(PhoebesFavoriteNumber);
+        Debug.Log(HeresAnotherNumber);
+        Debug.Log(Introduction);
+        Debug.Log(DoesPhoebeLikeThisClass);
     }
 
     /*this is a multi line comment
