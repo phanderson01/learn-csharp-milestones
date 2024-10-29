@@ -10,7 +10,7 @@ public class LearningCurve : MonoBehaviour
     public int AddedAge = 1;
 
     public int PhoebesFavoriteNumber = 8;
-    public float HeresAnotherNumber = 1.4141414;
+    public float HeresAnotherNumber = 1.4141414f;
     private string Introduction = "Hi! My name is Phoebe.";
     public bool DoesPhoebeLikeThisClass = true;
 
