@@ -13,7 +13,7 @@ public class LearningCurve : MonoBehaviour
     float HeresAnotherNumber = 0.414141;
     string Introduction = "Hi! My name is Phoebe.";
     bool DoesPhoebeLikeThisClass = true;
-    
+
 
     // Start is called before the first frame update
     void Start()
