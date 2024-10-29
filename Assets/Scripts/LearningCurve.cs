@@ -29,9 +29,9 @@ public class LearningCurve : MonoBehaviour
     /// and simple arithmetic and prints a bunch of variables to the debug log
     /// </summary>
 
-    public float TestMethod(string name, int level)
+    public void TestMethod(string name, int level)
     {
-        Debug.Log($"Character: {0} - Level: {1}", name, level);
+        Debug.LogFormat("Character: {0} - Level: {1}", name, level);
     }
 
     void ComputeAge()
