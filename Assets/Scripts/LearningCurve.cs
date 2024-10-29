@@ -37,6 +37,7 @@ public class LearningCurve : MonoBehaviour
         Debug.Log(DoesPhoebeLikeThisClass);
 
         Debug.Log(HowAreYou + ImGood);
+        Debug.Log($"Hello, my name is Phoebe. My favorite number is {PhoebesFavoriteNumber}")
     }
 
     /*this is a multi line comment
