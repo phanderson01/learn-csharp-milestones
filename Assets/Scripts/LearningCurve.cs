@@ -9,10 +9,10 @@ public class LearningCurve : MonoBehaviour
     public int CurrentAge = 30;
     public int AddedAge = 1;
 
-    int PhoebesFavoriteNumber = 8;
-    float HeresAnotherNumber = 0.414141;
-    string Introduction = "Hi! My name is Phoebe.";
-    bool DoesPhoebeLikeThisClass = true;
+    public int PhoebesFavoriteNumber = 8;
+    public float HeresAnotherNumber = 0.414141;
+    private string Introduction = "Hi! My name is Phoebe.";
+    public bool DoesPhoebeLikeThisClass = true;
 
 
     // Start is called before the first frame update
