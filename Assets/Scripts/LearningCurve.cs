@@ -16,7 +16,6 @@ public class LearningCurve : MonoBehaviour
     public bool DoesPhoebeLikeThisClass = true;
     public string HowAreYou = "How are you today? ";
     public string ImGood = "I'm good, how are you?";
-    int[] NewArray = new int[3];
     int[] NewArray = { 17, 45, 6 };
 
 
