@@ -17,7 +17,7 @@ public class LearningCurve : MonoBehaviour
     public string HowAreYou = "How are you today? ";
     public string ImGood = "I'm good, how are you?";
     int[] NewArray = { 17, 45, 6 };
-    list<string> PhoebesNewList = newList<string>()
+    List<string> PhoebesNewList = newList<string>()
     {
         "Hi, My name is Phoebe."
         "I'm an art history major."
