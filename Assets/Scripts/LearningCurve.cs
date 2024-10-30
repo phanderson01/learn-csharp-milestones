@@ -26,6 +26,7 @@ public class LearningCurve : MonoBehaviour
         EnjoymentofClass();
         Debug.Log(TestMethod(PhoebesFavoriteNumber, PhoebesFavoriteNumber));
         Debug.Log(ConditionalTest(PhoebesFavoriteNumber, PhoebesFavoriteNumber));
+        SwitchTest();
 
     }
 
