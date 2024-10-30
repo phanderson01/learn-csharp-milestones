@@ -19,9 +19,9 @@ public class LearningCurve : MonoBehaviour
     int[] NewArray = { 17, 45, 6 };
     List<string> PhoebesNewList = newList<string>()
     {
-        "Hi, My name is Phoebe."
-        "I'm an art history major."
-        "I really like tabletop games."
+        "Hi, My name is Phoebe.",
+        "I'm an art history major.",
+        "I really like tabletop games.",
         "I also like coding, even though it's intimidating."
     };
 
