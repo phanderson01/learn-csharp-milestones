@@ -41,7 +41,7 @@ public class LearningCurve : MonoBehaviour
     {
        /* Debug.LogFormat(0 + 1, number, secondnumber);*/
 
-        return (0 + 1);
+        return (number + secondnumber);
     }
 
     public void EnjoymentofClass()
