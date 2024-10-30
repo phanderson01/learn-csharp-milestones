@@ -23,6 +23,8 @@ public class LearningCurve : MonoBehaviour
         ComputeAge();
         CreateCharacter("Phoebe", 20);
         TestMethod(PhoebesFavoriteNumber, PhoebesFavoriteNumber);
+        EnjoymentofClass()
+        
     }
 
     /// <summary>
@@ -44,11 +46,11 @@ public class LearningCurve : MonoBehaviour
     {
         if(DoesPhoebeLikeThisClass)
         {
-            Debug.Log("Phoebe likes this class.")
+            Debug.Log("Phoebe likes this class.");
         }
         else
         {
-            Debug.Log("Phoebe does not like this class.")
+            Debug.Log("Phoebe does not like this class.");
         }
     }
 
