@@ -93,7 +93,7 @@ public class LearningCurve : MonoBehaviour
                 Debug.Log("Your name is Phoebe.");
                 break;
 
-            case "Owen";
+            case "Owen":
                 Debug.Log("Your name is Owen.");
                 break;
 
