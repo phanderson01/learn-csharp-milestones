@@ -24,6 +24,7 @@ public class LearningCurve : MonoBehaviour
         CreateCharacter("Phoebe", 20);
         EnjoymentofClass();
         Debug.Log(TestMethod(PhoebesFavoriteNumber, PhoebesFavoriteNumber));
+        Debug.Log(ConditionalTest(PhoebesFavoriteNumber, PhoebesFavoriteNumber));
 
     }
 
@@ -69,6 +70,18 @@ public class LearningCurve : MonoBehaviour
             Debug.Log("Phoebe does not like this class.");
         }
 
+    }
+
+    public bool ConditionalTest(int onenumber, int anothernumber)
+    {
+        if(onenumber >= anothernumber)
+        {
+            return true
+        }
+        else
+        {
+            return !true
+        }
     }
 
     void ComputeAge()
