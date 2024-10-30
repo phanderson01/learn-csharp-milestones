@@ -12,6 +12,7 @@ public class LearningCurve : MonoBehaviour
     private int PhoebesFavoriteNumber = 8;
     public float HeresAnotherNumber = 1.4141414f;
     private string Introduction = "Hi! My name is Phoebe.";
+    public string MyName = "Phoebe";
     public bool DoesPhoebeLikeThisClass = true;
     public string HowAreYou = "How are you today? ";
     public string ImGood = "I'm good, how are you?";
@@ -81,6 +82,25 @@ public class LearningCurve : MonoBehaviour
         else
         {
             return !true;
+        }
+    }
+
+    void SwitchTest()
+    {
+        switch(MyName)
+        {
+            case "Phoebe":
+                Debug.Log("Your name is Phoebe.");
+                break;
+
+            case "Owen";
+                Debug.Log("Your name is Owen.");
+                break;
+
+            default:
+                Debug.Log("I don't know your name.");
+                break;
+
         }
     }
 
