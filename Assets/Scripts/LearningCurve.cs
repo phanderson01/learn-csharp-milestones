@@ -22,7 +22,6 @@ public class LearningCurve : MonoBehaviour
     {
         ComputeAge();
         CreateCharacter("Phoebe", 20);
-        TestMethod(PhoebesFavoriteNumber, PhoebesFavoriteNumber);
         EnjoymentofClass();
 
     }
