@@ -40,6 +40,17 @@ public class LearningCurve : MonoBehaviour
         Debug.LogFormat(0 + 1, number, secondnumber);
     }
 
+    public void EnjoymentofClass()
+    {
+        if(DoesPhoebeLikeThisClass)
+        {
+            Debug.Log("Phoebe likes this class.")
+        }
+        else
+        {
+            Debug.Log("Phoebe does not like this class.")
+        }
+    }
 
     void ComputeAge()
     {
