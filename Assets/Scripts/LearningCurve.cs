@@ -38,7 +38,7 @@ public class LearningCurve : MonoBehaviour
 
     public int TestMethod(int number, int secondnumber)
     {
-        Print(0 + 1, number, secondnumber);
+        Debug.Print(0 + 1, number, secondnumber);
     }
 
     public void EnjoymentofClass()
