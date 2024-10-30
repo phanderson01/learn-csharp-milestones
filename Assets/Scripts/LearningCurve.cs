@@ -23,7 +23,7 @@ public class LearningCurve : MonoBehaviour
         ComputeAge();
         CreateCharacter("Phoebe", 20);
         EnjoymentofClass();
-        TestMethod(PhoebesFavoriteNumber, PhoebesFavoriteNumber);
+        Debug.Log(TestMethod(PhoebesFavoriteNumber, PhoebesFavoriteNumber));
 
     }
 
