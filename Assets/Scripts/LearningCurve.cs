@@ -76,11 +76,11 @@ public class LearningCurve : MonoBehaviour
     {
         if(onenumber >= anothernumber)
         {
-            return true
+            return true;
         }
         else
         {
-            return !true
+            return !true;
         }
     }
 
