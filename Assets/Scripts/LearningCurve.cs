@@ -17,7 +17,13 @@ public class LearningCurve : MonoBehaviour
     public string HowAreYou = "How are you today? ";
     public string ImGood = "I'm good, how are you?";
     int[] NewArray = { 17, 45, 6 };
-
+    list<string> PhoebesNewList = newList<string>()
+    {
+        "Hi, My name is Phoebe."
+        "I'm an art history major."
+        "I really like tabletop games."
+        "I also like coding, even though it's intimidating."
+    };
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +34,7 @@ public class LearningCurve : MonoBehaviour
         Debug.Log(TestMethod(PhoebesFavoriteNumber, PhoebesFavoriteNumber));
         Debug.Log(ConditionalTest(PhoebesFavoriteNumber, PhoebesFavoriteNumber));
         SwitchTest();
+        Debug.LogFormat("I have this many different introductions: {0}.", PhoebesNewList.Count)
 
     }
 
