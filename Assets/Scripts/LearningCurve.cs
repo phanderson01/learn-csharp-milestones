@@ -34,7 +34,7 @@ public class LearningCurve : MonoBehaviour
         Debug.Log(TestMethod(PhoebesFavoriteNumber, PhoebesFavoriteNumber));
         Debug.Log(ConditionalTest(PhoebesFavoriteNumber, PhoebesFavoriteNumber));
         SwitchTest();
-        Debug.LogFormat("I have this many different introductions: {0}.", PhoebesNewList.Count)
+        Debug.LogFormat("I have this many different introductions: {0}.", PhoebesNewList.Count);
 
     }
 
