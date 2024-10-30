@@ -36,10 +36,10 @@ public class LearningCurve : MonoBehaviour
         Debug.LogFormat("Character: {0} - Level: {1}", name, level);
     }
 
-    /*public int TestMethod(int number, int secondnumber)
+    public void TestMethod(int number, int secondnumber)
     {
         Debug.LogFormat(0 + 1, number, secondnumber);
-    }*/
+    }
 
     public void EnjoymentofClass()
     {
