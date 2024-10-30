@@ -17,7 +17,7 @@ public class LearningCurve : MonoBehaviour
     public string HowAreYou = "How are you today? ";
     public string ImGood = "I'm good, how are you?";
     int[] NewArray = new int[3];
-    int[] NewArray = {17, 45, 6};
+    int[] NewArray = { 17, 45, 6 };
 
 
     // Start is called before the first frame update
