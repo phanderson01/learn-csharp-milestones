@@ -57,15 +57,15 @@ public class LearningCurve : MonoBehaviour
 
         if(PhoebesFavoriteNumber > 10)
         {
-            Debug.Log("Your favorite number is really big!")
+            Debug.Log("Your favorite number is really big!");
         }
         else if(PhoebesFavoriteNumber < 2)
         {
-            Debug.Log("Your favorite number is really small!")
+            Debug.Log("Your favorite number is really small!");
         }
         else
         {
-            Debug.Log("Your favorite number is just right :)")
+            Debug.Log("Your favorite number is just right :)");
         }
     }
 
