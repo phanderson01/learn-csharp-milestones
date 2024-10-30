@@ -54,6 +54,19 @@ public class LearningCurve : MonoBehaviour
         {
             Debug.Log("Phoebe does not like this class.");
         }
+
+        if(PhoebesFavoriteNumber > 10)
+        {
+            Debug.Log("Your favorite number is really big!")
+        }
+        else if(PhoebesFavoriteNumber < 2)
+        {
+            Debug.Log("Your favorite number is really small!")
+        }
+        else
+        {
+            Debug.Log("Your favorite number is just right :)")
+        }
     }
 
     void ComputeAge()
