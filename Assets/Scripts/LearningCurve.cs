@@ -24,7 +24,12 @@ public class LearningCurve : MonoBehaviour
         "I really like tabletop games.",
         "I also like coding, even though it's intimidating."
     };
-    
+    Dictionary<string, int> ItemInventory = new Dictionary<string, int.()
+    {
+        {"Potion", 5}
+        {"Antidote", 7}
+        {"Aspirin", 1}
+    };
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +41,7 @@ public class LearningCurve : MonoBehaviour
         Debug.Log(ConditionalTest(PhoebesFavoriteNumber, PhoebesFavoriteNumber));
         SwitchTest();
         Debug.LogFormat("I have this many different introductions: {0}.", PhoebesNewList.Count);
+        Debug.LogFormat("Items: {0}", ItemInventory.Count);
 
     }
 
