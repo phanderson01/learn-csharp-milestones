@@ -24,6 +24,7 @@ public class LearningCurve : MonoBehaviour
         "I really like tabletop games.",
         "I also like coding, even though it's intimidating."
     };
+    int listLength = PhoebesNewList.Count;
     Dictionary<string, int> ItemInventory = new Dictionary<string, int>()
     {
         {"Potion", 5},
@@ -42,6 +43,11 @@ public class LearningCurve : MonoBehaviour
         SwitchTest();
         Debug.LogFormat("I have this many different introductions: {0}.", PhoebesNewList.Count);
         Debug.LogFormat("Items: {0}", ItemInventory.Count);
+
+        for(int i = 0; i < listLength; i++)
+        {
+            Debug.LogFormat("Index: {0} - {1}", i, PhoebesNewList[i]);
+        }
 
     }
 
