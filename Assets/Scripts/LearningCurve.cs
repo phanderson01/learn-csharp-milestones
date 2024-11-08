@@ -24,10 +24,10 @@ public class LearningCurve : MonoBehaviour
         "I really like tabletop games.",
         "I also like coding, even though it's intimidating."
     };
-    Dictionary<string, int> ItemInventory = new Dictionary<string, int.()
+    Dictionary<string, int> ItemInventory = new Dictionary<string, int>()
     {
-        {"Potion", 5}
-        {"Antidote", 7}
+        {"Potion", 5},
+        {"Antidote", 7},
         {"Aspirin", 1}
     };
 
