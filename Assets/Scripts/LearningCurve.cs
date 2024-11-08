@@ -53,6 +53,11 @@ public class LearningCurve : MonoBehaviour
             }
         }
 
+        foreach(string PhoebesIntroduction in PhoebesNewList)
+        {
+            Debug.LogFormat("{0} Awesome!", PhoebesIntroduction);
+        }
+
     }
 
     /// <summary>
