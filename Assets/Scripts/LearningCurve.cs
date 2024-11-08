@@ -58,6 +58,11 @@ public class LearningCurve : MonoBehaviour
             Debug.LogFormat("{0} Awesome!", PhoebesIntroduction);
         }
 
+        foreach(KeyValuePair<string, int> kvp in ItemInventory)
+        {
+            Debug.LogFormat("Item: {0} - {1}g", kvp.Key, kvp.Value);
+        }
+
     }
 
     /// <summary>
