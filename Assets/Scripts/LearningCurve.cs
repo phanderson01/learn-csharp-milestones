@@ -47,6 +47,10 @@ public class LearningCurve : MonoBehaviour
         for(int i = 0; i < PhoebesNewList.Count; i++)
         {
             Debug.LogFormat("Index: {0} - {1}", i, PhoebesNewList[i]);
+            if(PhoebesNewList[i] == "I really like tabletop games.")
+            {
+                Debug.Log("What's your favorite tabletop game?")
+            }
         }
 
     }
